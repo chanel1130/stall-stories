@@ -7,48 +7,59 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta http-equiv="pragma" content="no-cache" />
-  <title>Stall Stories</title>
+  <title>Stall_meeting_trans_revised</title>
 
   <style>
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  background: whitesmoke;
-  overflow: hidden;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-}
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      background: whitesmoke;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
-.canvas-container {
-  margin-top: 100px;
-  transform: scale(0.8);
-  transform-origin: top center;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  color: #aaa;
-}
+    .canvas-container {
+      transform: scale(0.8);
+      transform-origin: top center;
+      margin-top: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: #ccc;
+    }
+
+    canvas {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
 
     .title {
       font-family: sans-serif;
       font-size: 32px;
       margin-bottom: 20px;
-      align-self: center;
+      text-align: center;
     }
 
-.description a {
-  color: #aaa;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
+    .description {
+      text-align: center;
+      font-size: 16px;
+    }
 
-.description a:hover {
-  color: rgb(51, 118, 88);
-  text-decoration: underline;
-}
+    .description a {
+      color: #aaa;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .description a:hover {
+      color: black;
+      text-decoration: underline;
+    }
 
     :-webkit-full-screen #canvas,
     :-webkit-full-screen {
@@ -72,15 +83,15 @@ html, body {
         <p>Your browser doesn't support HTML5 canvas.</p>
       </canvas>
       <p class="description">
-  Developed by
-  <a href="https://www.instagram.com/yanran1nm2r7/" target="_blank">
-    Yanran Deng
-  </a>
-  &
-  <a href="https://www.instagram.com/chanel_feng0102/" target="_blank">
-    Chanel Feng
-  </a>
-</p>
+        Developed by
+        <a href="https://www.instagram.com/yanran1nm2r7/" target="_blank">
+          Yanran Deng
+        </a>
+        &
+        <a href="https://www.instagram.com/chanel_feng0102/" target="_blank">
+          Chanel Feng
+        </a>
+      </p>
     </div>
   </div>
 
